@@ -1,0 +1,39 @@
+{
+  "name": "zh-cli",
+  "version": "1.0.11",
+  "description": "Auto genrate sub system project.",
+  "main": "lib/index.js",
+  "bin": {
+    "zh": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "caohuichang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "index.d.ts"
+  ]
+}
